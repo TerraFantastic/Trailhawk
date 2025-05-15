@@ -1,0 +1,14 @@
+{
+    "NativeBirds": [
+        {
+            "Name": "Tui",
+            "URL": "tui.jpg",
+            "Desc": "The tūī (Prosthemadera novaeseelandiae) is a medium-sized bird native to New Zealand. It is blue, green, and bronze coloured with a distinctive white throat tuft (poi). It is an endemic passerine bird of New Zealand, and the only species in the genus Prosthemadera. It is one of the largest species in the diverse Australasian honeyeater family Meliphagidae, and one of two living species of that family found in New Zealand, the other being the New Zealand bellbird (Anthornis melanura). The tūī has a wide distribution in the archipelago, ranging from the subtropical Kermadec Islands to the sub-Antarctic Auckland Islands, as well as the main islands. " 
+        },
+        {
+            "Name":"Fantail",
+            "URL":"Fantail.jpg",
+            "Desc":"The New Zealand fantail (Rhipidura fuliginosa) is a small insectivorous bird, the only species of fantail in New Zealand. It has four subspecies: R. f. fuliginosa in the South Island, R. f. placabilis in the North Island, R. f. penita in the Chatham Islands, and the now-extinct R. f. cervina formerly on Lord Howe Island. It is also known by its Māori names, pīwakawaka, tīwakawaka or piwaiwaka, and the Chatham Island subspecies by the Moriori name tchitake;[2] the common pied morph is also known as pied fantail (not to be confused with the Malaysian or Philippine pied fantails), and the uncommon dark morph is also known as black fantail (not to be confused with the black fantail of New Guinea). The species has been considered by many to be conspecific (the same) as the grey fantail (Rhipidura albiscapa) of Australia and New Caledonia;[3] however, due to significant differences in its calls, many authorities now treat it as a separate species.[4]" 
+            
+        }]
+}
