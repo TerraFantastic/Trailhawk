@@ -1,7 +1,10 @@
 fetch("Birds.json")
   .then(response => response.json())
-  .then(json => {const birds = json});
+  .then(json => {
+    const birds = json
+    console.log("Testing")
+    console.log(birds)
+  }
+  );
   
-  console.log("Testing")
-  console.log(birds)
-
+  
