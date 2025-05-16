@@ -3,7 +3,6 @@ fetch("Birds.json")
   .then(json => {
     const birds = json
     console.log(birds.NativeBirds[0].Name)
-
   }
   );
   
