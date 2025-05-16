@@ -12,8 +12,5 @@ fetch("Birds.json")
       newbutton.style.height = "50px"
       document.querySelector('#infowindow').append(newbutton)
      }
-    })
+    });
     createbirdbuttons(birds)
-  }  
-);
-  
