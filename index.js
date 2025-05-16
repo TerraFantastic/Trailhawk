@@ -14,4 +14,4 @@ fetch("Birds.json")
      })
     }    
     createbirdbuttons(birds);
-  };
+  });
