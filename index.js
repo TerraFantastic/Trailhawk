@@ -3,7 +3,9 @@ fetch("Birds.json")
   .then(json => {
     const birds = json
     birds.NativeBirds.forEach(element => {
-      console.log(element.Name)
+      let newbutton = document.createElement('button')
+      newbutton.innerhtml = element.Name
+      document.querySelector('#infowindow').append(newbutton)
     });
   }
   );
