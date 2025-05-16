@@ -1,5 +1,5 @@
 fetch("Birds.json")
   .then(response => response.json())
-  .then(json => var birds = json);
+  .then(json => {var birds = json});
 
-console.log(birds)
+console.log(birds.NativeBirds[1])
