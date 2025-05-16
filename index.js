@@ -1,3 +1,5 @@
 fetch("Birds.json")
   .then(response => response.json())
-  .then(json => console.log(json));
+  .then(json => var birds = json);
+
+console.log(birds)
