@@ -6,7 +6,7 @@ fetch("Birds.json")
 
     function logclick(selected) {
       console.log("Button Pushed")
-      console.log(selected.Name)
+      console.log(selected)
     }
     
     function createbirdbuttons(buttons) {
@@ -15,8 +15,6 @@ fetch("Birds.json")
       newbutton.innerHTML = element.Name
       newbutton.style.width = "50px"
       newbutton.style.height = "50px"
-      newbutton.addEventListener(
-              "click", logclick(newbutton.innerHTML));
       document.querySelector('#infowindow').append(newbutton)
      })
     }
