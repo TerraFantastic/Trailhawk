@@ -3,3 +3,5 @@ fetch("Birds.json")
   .then(json => {const birds = json});
   
   console.log("Testing")
+  console.log(birds)
+
