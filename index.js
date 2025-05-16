@@ -13,4 +13,5 @@ fetch("Birds.json")
       document.querySelector('#infowindow').append(newbutton)
      }
     });
+    
     createbirdbuttons(birds)
