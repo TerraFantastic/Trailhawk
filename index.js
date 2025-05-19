@@ -12,14 +12,15 @@ fetch("Birds.json")
     function createbirdbuttons(buttons) {
       birds.NativeBirds.forEach(element => {
       let newbutton = document.createElement('button')
-      newbutton.innerHTML = element.Name
-      newbutton.id = element.Name
+      var Name = element.Name
+      newbutton.innerHTML = Name
+      newbutton.id = Name
       newbutton.style.width = "50px"
       newbutton.style.height = "50px"
       document.querySelector('#infowindow').append(newbutton)
-      document.getElementById(element.Name).addEventListener('click', function(element.Name) {
-        console.log(element.name);
-        console.log("button pressed");
+      document.getElementById(element.Name).addEventListener('click', (Name) => {
+        console.log(element.name)
+        console.log("button pressed")
       })
       })
      })
