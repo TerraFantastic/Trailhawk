@@ -5,6 +5,7 @@ fetch("Birds.json")
     const birds = json
 
     function showbirdinfo(selected) {
+      document.querySelector('#infowindow').innerHTML = ""
       birds.NativeBirds.forEach(element => {
         if (element.Name == selected) {
           let newinfowindow = document.createElement('p')
@@ -15,6 +16,7 @@ fetch("Birds.json")
     }
     
     function createbirdbuttons(buttons) {
+      document.querySelector('#infowindow').innerHTML = ""
       birds.NativeBirds.forEach(element => {
       let newbutton = document.createElement('button')
       var Name = element.Name
