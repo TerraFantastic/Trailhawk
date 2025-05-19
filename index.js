@@ -6,14 +6,15 @@ fetch("Birds.json")
 
     function showbirdinfo(selected) {
 
+      document.querySelector('#infowindow').innerHTML = ""
+
       let backbutton = document.createElement('button')
       backbutton.innerHTML = "Change Selected Species"
       backbutton.id = "backbutton"
       document.querySelector('#infowindow').append(backbutton)
       document.getElementById("backbutton").addEventListener('click', () => {
         createbirdbuttons(birds) }
-
-      document.querySelector('#infowindow').innerHTML = ""
+        
       birds.NativeBirds.forEach(element => {
         if (element.Name == selected) {
           let newinfowindow = document.createElement('p')
