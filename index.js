@@ -20,7 +20,7 @@ fetch("Birds.json")
       document.getElementById(element.Name).addEventListener('click', function(element.name) {
         console.log(element.name)
         console.log("button pressed")
-      }
+      })
       })
      })
 
