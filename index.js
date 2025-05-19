@@ -19,7 +19,7 @@ fetch("Birds.json")
       newbutton.style.height = "50px"
       document.querySelector('#infowindow').append(newbutton)
       document.getElementById(element.Name).addEventListener('click', (Name) => {
-        console.log(element.name)
+        console.log(Name)
         console.log("button pressed")
       })
       })
