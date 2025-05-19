@@ -13,8 +13,8 @@ fetch("Birds.json")
       backbutton.id = "backbutton"
       document.querySelector('#infowindow').append(backbutton)
       document.getElementById("backbutton").addEventListener('click', () => {
-        createbirdbuttons(birds) }
-        
+        createbirdbuttons(birds) })
+
       birds.NativeBirds.forEach(element => {
         if (element.Name == selected) {
           let newinfowindow = document.createElement('p')
