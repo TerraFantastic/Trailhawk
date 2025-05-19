@@ -4,9 +4,12 @@ fetch("Birds.json")
 
     const birds = json
 
-    function logclick(selected) {
-      console.log("Button Pushed")
-      console.log(selected)
+    function showbirdinfo(selected) {
+      birds.NativeBirds.forEach(element => {
+        if (element.Name == selected) {
+          console.log(element.Desc)
+        }
+      })
     }
     
     function createbirdbuttons(buttons) {
@@ -19,7 +22,7 @@ fetch("Birds.json")
       newbutton.style.height = "50px"
       document.querySelector('#infowindow').append(newbutton)
       document.getElementById(element.Name).addEventListener('click', () => {
-        logclick(Name)
+        showbirdinfo(Name)
       })
       })
      }
