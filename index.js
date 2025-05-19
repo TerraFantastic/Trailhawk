@@ -7,7 +7,9 @@ fetch("Birds.json")
     function showbirdinfo(selected) {
       birds.NativeBirds.forEach(element => {
         if (element.Name == selected) {
-          console.log(element.Desc)
+          let newinfowindow = document.createElement('p')
+          newinfowindow.innerHTML = element.Desc
+          document.querySelector('#infowindow').append(newinfowindow)
         }
       })
     }
