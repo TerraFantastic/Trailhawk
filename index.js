@@ -23,6 +23,6 @@ fetch("Birds.json")
         console.log("button pressed")
       })
       })
-     })
+     }})
 
   createbirdbuttons(birds);
