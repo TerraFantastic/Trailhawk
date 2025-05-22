@@ -17,6 +17,12 @@ fetch("Birds.json")
 
       birds.NativeBirds.forEach(element => {
         if (element.Name == selected) {
+
+          let birdimage = document.createElement('img')
+          birdimage.src = `pictures/${element.Name}.jpg`
+          console.log(birdimage.src)
+          document.querySelector('#infowindow').append(birdimage)
+
           let newinfowindow = document.createElement('p')
           newinfowindow.innerHTML = element.Desc
           document.querySelector('#infowindow').append(newinfowindow)
