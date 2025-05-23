@@ -12,6 +12,7 @@ fetch("Birds.json")
       backbutton.innerHTML = "Change Selected Species"
       backbutton.id = "backbutton"
       document.querySelector('#infowindow').append(backbutton)
+      document.querySelector('#infowindow').append(document.createElement('br'))
       document.getElementById("backbutton").addEventListener('click', () => {
         createbirdbuttons(birds) })
 
