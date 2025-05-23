@@ -21,7 +21,8 @@ fetch("Birds.json")
 
           let birdimage = document.createElement('img')
           birdimage.src = `pictures/${element.Name}.jpg`
-          console.log(birdimage.src)
+          birdimage.style.width = 15vw
+          birdimage.style.height = 15vw
           document.querySelector('#infowindow').append(birdimage)
 
           let newinfowindow = document.createElement('p')
