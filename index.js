@@ -1,9 +1,12 @@
+// Load in Json file 
 fetch("Birds.json")
   .then(response => response.json())
   .then(json => {
 
+    // Attach loaded in object to variable "birds"
     const birds = json
 
+    // Function for displaying bird information when selected
     function showbirdinfo(selected) {
 
       // Clear all elements from the infowindow div
@@ -42,6 +45,7 @@ fetch("Birds.json")
       })
     }
     
+    // Function for displaying all bird options when no specific species is selected 
     function createbirdbuttons(buttons) {
       document.querySelector('#infowindow').innerHTML = ""
       birds.NativeBirds.forEach(element => {
@@ -57,6 +61,7 @@ fetch("Birds.json")
       })
       })
      }
+     // Set Intial View
       createbirdbuttons(birds);
     })
 
