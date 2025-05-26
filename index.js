@@ -31,6 +31,7 @@ fetch("Birds.json")
           // Create a back button
           let backbutton = document.createElement('button')
           backbutton.innerHTML = "Change Selected Species"
+          backbutton.width = "10vw"
           backbutton.id = "backbutton"
           document.querySelector('#infowindow').append(backbutton)
           document.querySelector('#infowindow').append(document.createElement('br'))
