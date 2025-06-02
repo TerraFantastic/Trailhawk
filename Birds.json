@@ -1,14 +1,44 @@
 {
     "NativeBirds": [
         {
-            "Name": "Tui",
-            "URL": "pictures/tui.jpg",
-            "Desc": "The tūī (Prosthemadera novaeseelandiae) is a medium-sized bird native to New Zealand. It is blue, green, and bronze coloured with a distinctive white throat tuft (poi). It is an endemic passerine bird of New Zealand, and the only species in the genus Prosthemadera. It is one of the largest species in the diverse Australasian honeyeater family Meliphagidae, and one of two living species of that family found in New Zealand, the other being the New Zealand bellbird (Anthornis melanura). The tūī has a wide distribution in the archipelago, ranging from the subtropical Kermadec Islands to the sub-Antarctic Auckland Islands, as well as the main islands. " 
+            "Name": "Antipodes parakeet",
+            "SciName": "Cyanoramphus unicolor",
+            "TaxonNum": 18931,
+            "URL": "Anti_Parakeet.jpg",
+            "ImageAtt": "By Kimberley Collins - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=67029732",
+            "Desc": "The Antipodes parakeet or Antipodes Island parakeet (Cyanoramphus unicolor) is a parrot in the family Psittaculidae that is endemic to the Antipodes Islands of New Zealand. It is one of two parrot species found on the islands, and one of only five ground-dwelling parrots in the world. They are long-living birds that may live up to 10 years of age, but the introduction of mice that compete with them for food was a threat to their survival on the Antipodes Islands until the mice were successfully eradicated from the Islands in 2016 (confirmed 2018).[3] Unusually for parrots, they sometimes prey upon other birds, a trait shared by another New Zealand parrot, the kea. " 
         },
         {
-            "Name":"Fantail",
-            "URL":"pictures/Fantail.jpg",
-            "Desc":"The New Zealand fantail (Rhipidura fuliginosa) is a small insectivorous bird, the only species of fantail in New Zealand. It has four subspecies: R. f. fuliginosa in the South Island, R. f. placabilis in the North Island, R. f. penita in the Chatham Islands, and the now-extinct R. f. cervina formerly on Lord Howe Island. It is also known by its Māori names, pīwakawaka, tīwakawaka or piwaiwaka, and the Chatham Island subspecies by the Moriori name tchitake;[2] the common pied morph is also known as pied fantail (not to be confused with the Malaysian or Philippine pied fantails), and the uncommon dark morph is also known as black fantail (not to be confused with the black fantail of New Guinea). The species has been considered by many to be conspecific (the same) as the grey fantail (Rhipidura albiscapa) of Australia and New Caledonia;[3] however, due to significant differences in its calls, many authorities now treat it as a separate species.[4]" 
-            
-        }]
+            "Name":"Antipodes snipe",
+            "SciName": "oenocorypha aucklandica meinertzhagenae",
+            "TaxonNum": 413447,
+            "URL": "Anti_Snipe.jpg",
+            "ImageAtt": "By Mark Fraser - https://www.inaturalist.org/photos/387315409, CC0, https://commons.wikimedia.org/w/index.php?curid=150057163",
+            "Desc": "The Antipodes snipe (Coenocorypha aucklandica meinertzhagenae), also known as the Antipodes Island snipe, is an isolated subspecies of the Subantarctic snipe that is endemic to the Antipodes Islands, a subantarctic island group south of New Zealand in the Southern Ocean. " 
+        },
+        {
+            "Name":"Auckland Islands shag",
+            "SciName": "Leucocarbo colensoi",
+            "TaxonNum": 1289594,
+            "URL": "AI_Shag.jpg",
+            "ImageAtt": "By Joshua Bergmark (Ornis Birding Expeditions) - Own work, CC BY 4.0, https://commons.wikimedia.org/w/index.php?curid=159463475",
+            "Desc": "The Auckland shag or Auckland Islands shag (Leucocarbo colensoi) is a species of cormorant from New Zealand. The species is endemic to the Auckland Islands archipelago. It is a sedentary bird that primarily eats various crustaceans and fish. In recent years, roughly 1,000 pairs have been recorded. The Auckland shag is a colonial nester, building sizeable nests of, among other items, grass, twigs and seaweed. The Auckland shag lays three pale blue-green eggs in November–February. The incubation period is 26–32 days. " 
+        },
+        {
+            "Name":"Auckland Islands rail",
+            "SciName": "Lewinia muelleri",
+            "TaxonNum": 557,
+            "URL": "AI_Rail.jpg",
+            "ImageAtt": "By [1] - https://www.inaturalist.org/photos/351721739, CC BY 4.0, https://commons.wikimedia.org/w/index.php?curid=145435684",
+            "Desc": "The Auckland rail, Auckland Island rail or Auckland Islands rail (Lewinia muelleri) is a small nearly flightless rail endemic to the Auckland Islands 460 km south of New Zealand. It is somewhat of a biogeographical anomaly, being the only species in the genus Lewinia to have reached the islands of New Zealand, skipping over[citation needed] the main islands to reach the remote Auckland group. Its closest relative is Lewin's rail of Australia. The species is currently restricted to two islands in the Auckland group, Adams Island and Disappointment Island. " 
+        },
+        {
+            "Name":" Auckland Islands teal",
+            "SciName": "Anas aucklandica",
+            "TaxonNum": 6926,
+            "URL": "AI_Teal.jpg",
+            "ImageAtt": "By Kimberley Collins - Auckland Island teal on Enderby Island, CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=83772344",
+            "Desc": "The Auckland teal (Anas aucklandica) (Māori: Tētē kākāriki),[3] also known as Auckland Islands teal, is a species of dabbling duck of the genus Anas that is endemic to Auckland Islands south of New Zealand. The species was once found throughout the Auckland Islands but is now restricted to the islands that lack introduced predators: Adams Island, Enderby Island, Disappointment Island and a few smaller islands. An old report of -the same flightless duck- on North East Island, The Snares group[4] most likely refers to a straggler.[5]" 
+        }
+    ]
 }
